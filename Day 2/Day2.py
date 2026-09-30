@@ -46,3 +46,52 @@ print(f"Is the light on? {is_light_on}")
 # 1.13
 time, color, number = '6 PM', 'Purple', 32
 print(f"The time is {time}, the color is {color}, and the number is {number}.")
+
+# 2.1
+
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_light_on))
+print(type(is_true))
+print(type(time))
+print(type(color))
+print(type(number))
+
+# 2.2
+print(f"Length of First name: {len(first_name)}")
+
+# 2.3
+print(f"Compares the first and last name and finds the length of the greater value.\n{max(len(first_name),(len(last_name)))}")
+
+# 2.4
+num_one = 5
+num_two = 4
+
+# 2.5
+total = num_one+num_two
+
+# 2.6
+diff = num_two-num_one
+
+# 2.7
+product = num_one*num_two
+
+# 2.8
+division = num_one/num_two
+
+# 2.9
+remainder = num_two%num_one
+
+# 2.10
+exp = num_one**num_two
+
+# 2.11
+floor_division = num_one//num_two
+
+print(total,diff,product,division,remainder,exp,floor_division)
