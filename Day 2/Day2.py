@@ -95,3 +95,25 @@ exp = num_one**num_two
 floor_division = num_one//num_two
 
 print(total,diff,product,division,remainder,exp,floor_division)
+
+# 2.12
+radius = 30
+pi = 3.14 
+#I don't remember a lot of digits of pi... this is fine for the purposes of this exercise.
+area = pi*radius**2
+circumference = pi*radius*2
+print(f"A circle has an area of 30. The area is {area} and the circumference is {circumference}.")
+
+user_radius = input("Type a Radius: ")
+user_radius = float(user_radius)
+user_area = pi*user_radius**2
+print(f'The area of your circle is: {user_area}')
+
+# 2.13
+user_first_name = input('What is your first name? ')
+user_last_name = input('What is your last name? ')
+user_country = input('What country are you from? ')
+user_age = input('How old are you? ')
+print(f"User Info:\nFirst name: {user_first_name}\nLast name: {user_last_name}\nCountry: {user_country}\nAge: {user_age}")
+
+# Day two complete! 2/29/26
