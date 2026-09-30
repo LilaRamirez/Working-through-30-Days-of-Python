@@ -1,1 +1,1 @@
-Based upon Asabeneh's 30 Days of Python, which can be found [here](https://github.com/Asabeneh/30-Days-Of-Python)
+Based upon Asabeneh's 30 Days of Python, which can be found [here.](https://github.com/Asabeneh/30-Days-Of-Python)
