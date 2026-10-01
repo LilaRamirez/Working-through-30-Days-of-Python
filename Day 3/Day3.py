@@ -79,3 +79,65 @@ x = input('Insert a value for x here: ')
 x = float(x)
 solve = x**2 + 6*x + 9
 print(f"When x is equal to {x}, y is equal to {solve}")
+
+# 1.12
+# Would this have been easier by not making a list? Perhaps.
+animals = ["dragon","python"]
+print("Are dragon and python the same lenght?",bool(len(animals[0])==len(animals[1])))
+
+# 1.13
+print('Is there "on" in both words?', bool('on' in animals[0] and animals[1]))
+
+# 1.14
+phrase = 'I hope this course is not full of jargon'
+print("Is 'jargon' in the phrase?",bool('jargon' in phrase))
+
+# 1.15
+# This question doesn't really tell what it wants, so I decided to go with a not operator.
+print("There is no 'on' in dragon and python:", not True)
+
+# 1.16
+word_length = len('Python')
+print(f'The length of the word "Python" is {word_length}')
+word_length = float(word_length)
+print(f"Here's that value as a float! {word_length} {type(word_length)}")
+word_length = str(word_length)
+print(f"And here's that same value again as a string. {word_length}, {type(word_length)}")
+
+# 1.17
+print("The even calculator! Input a number to see if it's even or odd.")
+number = input()
+number = float(number)
+number%=2
+if number == 0.0:
+    print('Your number is even!')
+else:
+    print('Your number is not even.')
+
+# 1.18
+floor_1 = 7//3
+floor_2 = int(2.7)
+print(f"Is 7//3 equal to the int value of 2.7? {floor_1==floor_2}")
+
+# 1.19
+# I think this is comparing two different types (string vs int)
+print(f"Is '10' equal to 10? {'10'== 10}")
+
+# 1.20
+print(f"Is int('9.8') equal to 10? {int(9.8) == 10}")
+
+# 1.21
+print("Weekly earning calculator:")
+hours = input("Enter hours (per week): ")
+hours = float(hours)
+money = input("Enter rate per hour: ")
+money = float(money)
+mpw = hours*money
+print(f"Your weekly earning is {mpw}")
+
+# 1.22
+print("How long have you lived? (in seconds)")
+years = input("Enter your age: ")
+years = int(years)
+total = years*31536000
+print(f"You have lived for {total} seconds.")
