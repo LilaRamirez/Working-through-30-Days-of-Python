@@ -141,3 +141,21 @@ years = input("Enter your age: ")
 years = int(years)
 total = years*31536000
 print(f"You have lived for {total} seconds.")
+
+# 1.23
+row_one = 1
+print(row_one, row_one, row_one,row_one,row_one)
+
+row_two = 2
+print(row_two, int(row_two/row_two), row_two, row_two*row_two, row_two**3)
+
+row_three = 3
+print(row_three, int(row_three/row_three), row_three, row_three*row_three, row_three**3)
+
+row_four = 4
+print(row_four, int(row_four/row_four), row_four, row_four*row_four, row_four**3)
+
+row_five = 5
+print(row_five, int(row_five/row_five), row_five, row_five*row_five, row_five**3)
+
+# Complete! 9/30/26
