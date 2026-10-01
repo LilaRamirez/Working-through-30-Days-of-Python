@@ -97,3 +97,47 @@ more = "Coding For All People"
 print(f"'i' can be found at position {more.rfind('i')}")
 # This is case sensetive; a capital I will return a -1
 
+# 1.23
+stupid_sentence = "You cannot end a sentence with because because because is a conjunction."
+print(stupid_sentence.index('because')) # Finds the first position
+# 1.24
+print(stupid_sentence.rindex('because')) # Finds the last position
+# 1.25
+print(stupid_sentence[:31]+stupid_sentence[55:])
+
+# 26 seems to be a reapeat of 23 and 27 seems to be a repeat of 25, so I'll be skipping over theose two.
+
+# 1.28
+print(f"Does Coding for All start with coding? {company.startswith('Coding')}") # True
+# 1.29
+print(f"Does Coding for All end with coding? {company.endswith('coding')}") # False
+
+# 1.30
+spaces = '   Coding For All      '
+print(spaces.strip())
+
+# 1.31
+test_one = "30DaysOfPython"
+test_two = "thirty_days_of_python" # this one should return as true as it's a valid var name
+print(f"Is 30DyasofPython a valid identifier? {test_one.isidentifier()}\nIs thirty_days_of_python a vailid identifier? {test_two.isidentifier()}")
+
+# 1.32
+libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+py_libraries = '# '.join(libraries)
+print(py_libraries)
+
+# 1.33
+print(f"I am enjoying this challenge.\nI just wonder what is next.")
+
+# 1.34
+print(f"Name\t\tAge\tCountry\t\tCity\nAsanbeneh\t250\tFinland\t\tHelsinki")
+
+# 1.35
+radius = 10
+area = 3.14*radius**2
+print(f"radius = {radius}\narea = 3.14 * radius ** 2\nThe area of a circle with a radius {radius} is {int(area)} meters square.")
+
+# 1.36
+print(f"8 + 6 = {8+6}\n8 - 6 = {8-6}\n8 * 6 = {8-6}\n8 / 6 = {8/6}\n8 % 6 = {8%6}\n8 // 6 = {8//6}\n8 ** 6 = {8**6}")
+
+# Complete! 9/30/26
