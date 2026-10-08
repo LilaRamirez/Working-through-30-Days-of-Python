@@ -47,3 +47,10 @@ print(f'Appending to a list: {it_companies}')
 it_companies.insert(3,'Nvidia')
 print(f"Inserting in the middle of a list {it_companies}")
 
+# 1.13
+it_companies[-1] = it_companies[-1].upper()
+print(f"Capitalization of one element: {it_companies}")
+
+#1.14
+joined_it_companies = '#; '.join(it_companies)
+print(f'Joined List: {joined_it_companies}')
